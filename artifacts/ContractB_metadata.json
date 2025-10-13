@@ -67,7 +67,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Function.sol": "HelperFunctions"
+			"contracts/Function.sol": "ContractB"
 		},
 		"evmVersion": "london",
 		"libraries": {},
