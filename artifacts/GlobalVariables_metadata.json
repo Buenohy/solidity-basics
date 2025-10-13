@@ -4,7 +4,34 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "sender",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +60,11 @@
 	},
 	"sources": {
 		"contracts/GlobalVariables.sol": {
-			"keccak256": "0x910ad87aa6986ca6ad82db1ab763dd3fdee440802642cff9de98dd49716e27a5",
+			"keccak256": "0x65e2aa4d9c54e0a5eb3653bafe63e4d84f0a99c3c2fc210cad442caa369d6ceb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2055014e2776533baa4e67a0544d6abd017cc233a83d99566b8aa83da93f34e3",
-				"dweb:/ipfs/QmXSt4SAZBzvRJrzsQE5x4NtpgNfm8YmhAfUNC7jxbCbLX"
+				"bzz-raw://093039aed9ba9d7bcc1c39f52471a8ebefe35884f0002053ca4bd825ab26897d",
+				"dweb:/ipfs/QmYc8h9ZN2SMtz8HBF4Rr7szbkjuz6GQy4e8XNfzuDohPf"
 			]
 		}
 	},
