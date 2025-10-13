@@ -11,7 +11,7 @@ contract HelperFunctions {
     function sub(uint256 x, uint256 y) external returns(uint256) {
         soma(2,3);
         fnInternal();
-        return x + y;
+        return x - y;
     }
 
     function fnInternal() internal {
