@@ -33,6 +33,32 @@
 			},
 			{
 				"inputs": [],
+				"name": "b1",
+				"outputs": [
+					{
+						"internalType": "bytes1",
+						"name": "",
+						"type": "bytes1"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "b32",
+				"outputs": [
+					{
+						"internalType": "bytes7",
+						"name": "",
+						"type": "bytes7"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "boolean",
 				"outputs": [
 					{
@@ -42,6 +68,25 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "_bytes",
+						"type": "bytes"
+					}
+				],
+				"name": "bytesToStrung",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
@@ -151,11 +196,11 @@
 	},
 	"sources": {
 		"contracts/Variables.sol": {
-			"keccak256": "0x849600547724ae04ba4e60ddcdf0322dbcce3f822fe3c4155bc2379b9fe26df1",
+			"keccak256": "0x72d56ccedf15fa56c7e8546ee7d4dfcf16640b27c81b4938c7ab11c391bf3f82",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://19c36fbe682b08a44b797e7a88b7094c42273d96b95062fb8513a77f5ef8a442",
-				"dweb:/ipfs/QmdBeyhBsSqtXuVMe2W8G39KwqQ5q7MUSFsJaAgaHv2zmX"
+				"bzz-raw://975ee59dcd99f3cf54c5396c34abdc71236265903f26344b2c993098ba43feef",
+				"dweb:/ipfs/QmTJ29oGYjPxxcgDvYUfwsoNqKt8o1kYdSm1v5mzr9D5DH"
 			]
 		}
 	},

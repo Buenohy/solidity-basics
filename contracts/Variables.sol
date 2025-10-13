@@ -21,4 +21,11 @@ contract Variables {
 
     address public addr = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
     address public addr2; // valor padrão 0x0000000000000000000000000000000000000000
+
+    bytes1 public  b1 = "c";
+    bytes7 public  b32 = "Gabriel";
+
+    function bytesToStrung(bytes memory _bytes) public pure returns(string memory) {
+        return string(_bytes);
+    }
 }
