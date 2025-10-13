@@ -18,4 +18,7 @@ contract Variables {
     int public interoComNegativo = 200;
     int8 public minInt = type(int8).min;
     int8 public maxInt = type(int8).max;
+
+    address public addr = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
+    address public addr2; // valor padrão 0x0000000000000000000000000000000000000000
 }

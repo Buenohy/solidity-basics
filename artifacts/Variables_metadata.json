@@ -7,6 +7,32 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "addr",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "addr2",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "boolean",
 				"outputs": [
 					{
@@ -125,11 +151,11 @@
 	},
 	"sources": {
 		"contracts/Variables.sol": {
-			"keccak256": "0x2f77a9cf012aaf41a52477f6b3b62d3e2fb5346753f7872ab1bf274b56805dba",
+			"keccak256": "0x849600547724ae04ba4e60ddcdf0322dbcce3f822fe3c4155bc2379b9fe26df1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d287b022e4b48883703a1c3e0a496d2d1650c5857faaaf12736d7891a5ef4993",
-				"dweb:/ipfs/QmPR1FhtnNh1czjtgYXJdQd5BtMDEm19DmAc5FTCaH3Rxa"
+				"bzz-raw://19c36fbe682b08a44b797e7a88b7094c42273d96b95062fb8513a77f5ef8a442",
+				"dweb:/ipfs/QmdBeyhBsSqtXuVMe2W8G39KwqQ5q7MUSFsJaAgaHv2zmX"
 			]
 		}
 	},
