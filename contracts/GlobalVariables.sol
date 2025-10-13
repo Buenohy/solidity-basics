@@ -9,5 +9,5 @@ contract GlobalVariables {
     uint public timestamp = block.timestamp;
     uint public blockNuember = block.number;
 
-    address public oring = tx.origin
+    address public oring = tx.origin;
 }

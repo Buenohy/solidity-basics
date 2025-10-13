@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "number",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/GasPriceGasLimit.sol": "GasPriceGasLimit"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/GasPriceGasLimit.sol": {
+			"keccak256": "0xb98118924f1933f395604fbbdba0e734218127cbde0a2a4f336c1ca31e77604b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://165cf00fdd8c9086875f836d4ea8cab1610218f32fb7c7018a320bf1757af542",
+				"dweb:/ipfs/QmR82Pj5x6NtX9EfeJ2vMVUidyu74d13aW2QBvjPVqAR8A"
+			]
+		}
+	},
+	"version": 1
+}

@@ -20,6 +20,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "oring",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "sender",
 				"outputs": [
 					{
@@ -86,11 +99,11 @@
 	},
 	"sources": {
 		"contracts/GlobalVariables.sol": {
-			"keccak256": "0xb19de39acbafd8e06a41fc34d0f344435be26a5f499a58dd4ec06fa829e4fdb2",
+			"keccak256": "0x6f277792ea3db85e517c7a04f8d34ec26bd8e04f4dd2508c08ad9a17aed94eb6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1adc2576ad681ba493634af2d64cde5a83284e3f075bc8f8e013f81d784776d1",
-				"dweb:/ipfs/QmSFf6dgfrnsiCKTzUWeSDm11YdnTwXcQJLctfteao2n3g"
+				"bzz-raw://28e03fbd7c801a9609a2d3f4fe7bacea5b9ddf6f93c7bccb43a24b6a8cf42a2e",
+				"dweb:/ipfs/QmdqXMHS1RoAmWn48PzbhNPvuMpW5eWJ4dSZ3nhUGhUz8D"
 			]
 		}
 	},
