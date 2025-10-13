@@ -8,7 +8,13 @@ contract HelperFunctions {
         return x + y;
     }
     function sub(uint256 x, uint256 y) external returns(uint256) {
-        soma(2,3)
+        soma(2,3);
         return x + y;
+    }
+    function fnInternal() internal {
+        uint256 x = 100;
+    }
+    function fnPrivate() private  {
+        uint256 x = 200;
     }
 }
