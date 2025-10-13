@@ -17,6 +17,84 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "interoComNegativo",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "maxInt",
+				"outputs": [
+					{
+						"internalType": "int8",
+						"name": "",
+						"type": "int8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "minInt",
+				"outputs": [
+					{
+						"internalType": "int8",
+						"name": "",
+						"type": "int8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "unInteiro256",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "unInteiro8",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "unInteiroAlias",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -47,11 +125,11 @@
 	},
 	"sources": {
 		"contracts/Variables.sol": {
-			"keccak256": "0xfbb98e3df4050c9e4863d4a1de015bda02cf82126f0a377f2af98320af3e96d5",
+			"keccak256": "0x2f77a9cf012aaf41a52477f6b3b62d3e2fb5346753f7872ab1bf274b56805dba",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://540342328f80095ea8d9c7c6dd34a917b42b5471b8aa3e055d58605920b788c5",
-				"dweb:/ipfs/QmXozdXXfKA6VXTNc95ohmA9GmiUwVQm5nupu24tpqZjep"
+				"bzz-raw://d287b022e4b48883703a1c3e0a496d2d1650c5857faaaf12736d7891a5ef4993",
+				"dweb:/ipfs/QmPR1FhtnNh1czjtgYXJdQd5BtMDEm19DmAc5FTCaH3Rxa"
 			]
 		}
 	},
