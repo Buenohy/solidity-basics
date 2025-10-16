@@ -30,6 +30,30 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "foo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "getGreeting",
 				"outputs": [
@@ -71,11 +95,11 @@
 	},
 	"sources": {
 		"contracts/ViewAndPure.sol": {
-			"keccak256": "0x5a202e97d63feb60d948ec44480117277021620ce77e84970643b490c98b1060",
+			"keccak256": "0xa2fe7c6e6713cccedb2367bc02385e082f5e94c1840caf46156f376118566ca2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d9f75bd29d7d183729e4b02c6b7aa909c977ab46145bfe81ee2602336ea0bd9d",
-				"dweb:/ipfs/QmfNF3NAn7KsAv9iFPpQ4jt5V42mqoRckcFiSQCyFeP7ip"
+				"bzz-raw://9c246c7b02ed65fba3b980ecbcdd41513a6e7e638e143ee352a6ccb41b9d56fc",
+				"dweb:/ipfs/QmQCkFXKy7JxAk6R5XanLhHH6cutJWaeFLRGncte6wJ3Gu"
 			]
 		}
 	},

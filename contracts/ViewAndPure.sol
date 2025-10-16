@@ -12,4 +12,8 @@ contract ViewAndPure {
     function doSomething(uint256 a, uint256 b) external view returns(uint256) {
         return a * (b + 42 ) + block.timestamp;
     }
+
+    function foo(uint256 a, uint256 b) external pure returns(uint256) {
+        return a * (b + 42);
+    }
 }
