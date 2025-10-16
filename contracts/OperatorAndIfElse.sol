@@ -11,4 +11,7 @@ contract OperatorAndIfElse {
     function increment() external {
         count++;
     }
+    function decrement() external {
+        count--;
+    }
 }

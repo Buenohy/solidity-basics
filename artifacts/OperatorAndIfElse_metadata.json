@@ -7,6 +7,13 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "decrement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "increment",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -54,11 +61,11 @@
 	},
 	"sources": {
 		"contracts/OperatorAndIfElse.sol": {
-			"keccak256": "0xe65dc77fc72b5da5805c356fabfc982062426bce4f213414a1d93fdd7822a917",
+			"keccak256": "0x6daf9d7110c23a1936b404a4d5beb3cc216e86c10c2d4acd03fba86d19849924",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f39deee1d12306c4ee3c5e87e324aad2cb6c1182bf5b4bf5394ac88250dd5e15",
-				"dweb:/ipfs/QmT7codxnP8nTmUUdhZz8gYFBcwrVFsrr2A22VkTwaXLEa"
+				"bzz-raw://d444f35033eadd808e84655f748a5dae5b3503d2f134f039b64db4f3f2165b94",
+				"dweb:/ipfs/QmVSyYkSipLQ1jo3YmEhe4NpwMRMetQ9P9Mqs3cremEqDW"
 			]
 		}
 	},
