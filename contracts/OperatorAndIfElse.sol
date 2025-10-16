@@ -24,4 +24,11 @@ contract OperatorAndIfElse {
             return 0;
         }
     }
+
+    function ternary(uint256 x) external pure returns(uint256) {
+        return x < 5 ? 1 : 2;
+    }
+    function ternary2(bool b) external pure returns(uint256) {
+        return 240 + (b ? 1 : 2);
+    }
 }
