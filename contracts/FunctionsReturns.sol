@@ -9,4 +9,8 @@ contract FunctionReturns {
     function returnNamed() public pure returns(uint a, bool b) {
         return (2, true);
     }
+    function returnAssigned() public pure returns(uint a, bool b) {
+        a = 10;
+        b = true;
+    }
 }
