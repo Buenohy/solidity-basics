@@ -6,6 +6,30 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "doSomething",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "getGreeting",
 				"outputs": [
@@ -47,11 +71,11 @@
 	},
 	"sources": {
 		"contracts/ViewAndPure.sol": {
-			"keccak256": "0x24eedd72776269e3b61b4930046e1d7d079ca1a20f92cd701f157189bcac9e1c",
+			"keccak256": "0x5a202e97d63feb60d948ec44480117277021620ce77e84970643b490c98b1060",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7a0674499c64e971ff3aa3a995a13ad6070e760c55594dbde60106b4d5af9e76",
-				"dweb:/ipfs/QmUU7ei1XDS5hyZxf1tKwtCKiRFcepLb8VdMer1bG5fGGB"
+				"bzz-raw://d9f75bd29d7d183729e4b02c6b7aa909c977ab46145bfe81ee2602336ea0bd9d",
+				"dweb:/ipfs/QmfNF3NAn7KsAv9iFPpQ4jt5V42mqoRckcFiSQCyFeP7ip"
 			]
 		}
 	},
