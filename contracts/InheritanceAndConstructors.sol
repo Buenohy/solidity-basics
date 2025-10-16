@@ -15,3 +15,21 @@ contract ContractA is Base(2) {}
 contract ContractB is Base {
     constructor() Base(2) {}
 }
+
+abstract contract AbstractContract is Base {
+    string public name = "AbstractContract";
+}
+
+contract Owned {
+    address public owner;
+
+    constructor() {
+        owner = msg.sender;
+    }
+}
+
+contract ContractC is AbstractContract, Owned {
+    constructor() Base(15 * 2) {
+
+    }
+}

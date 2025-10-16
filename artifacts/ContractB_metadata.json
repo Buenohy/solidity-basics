@@ -52,11 +52,11 @@
 	},
 	"sources": {
 		"contracts/InheritanceAndConstructors.sol": {
-			"keccak256": "0x168848f9a54c8f9c9ac9dc838e47ee379066a2bb4daa846a488a31af7ddb3143",
+			"keccak256": "0x4885fcbfa40736b7255b1290ab23658b62883439acac737a9a703d8c00bf0813",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1c3629b23bb7cb4c999b7770fd57bc9c99d29545ea2c79f4a8c709ce7c93702e",
-				"dweb:/ipfs/QmY3wMqpAfvhRUkyRt4u5PhrvxyYY4UfmedKX5Z39FQJNW"
+				"bzz-raw://c8825fb081dcf50d6a48c66e12aaf8dcb860bc0187d1c51aadf6fafa8259944d",
+				"dweb:/ipfs/QmXD64iJNWkKTZTaCg3krjFbDS9ygMFjyAtNKgnWomJW9f"
 			]
 		}
 	},
