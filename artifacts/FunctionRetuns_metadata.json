@@ -6,29 +6,26 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "x",
-						"type": "uint256"
-					}
-				],
-				"name": "add",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [],
-				"name": "number",
+				"name": "returnMany",
 				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -45,7 +42,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/GasPriceGasLimit.sol": "GasPriceGasLimit"
+			"contracts/FunctionsReturns.sol": "FunctionRetuns"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -59,12 +56,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/GasPriceGasLimit.sol": {
-			"keccak256": "0xb98118924f1933f395604fbbdba0e734218127cbde0a2a4f336c1ca31e77604b",
+		"contracts/FunctionsReturns.sol": {
+			"keccak256": "0x44d019ef337635beb0ab3117a44727713c10e456b0b682c375015e673f162f1e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://165cf00fdd8c9086875f836d4ea8cab1610218f32fb7c7018a320bf1757af542",
-				"dweb:/ipfs/QmR82Pj5x6NtX9EfeJ2vMVUidyu74d13aW2QBvjPVqAR8A"
+				"bzz-raw://b72f488912b56afb82cbaf9a42194dc7cf2c67e70bd0e14f12e6bda13af2c1fc",
+				"dweb:/ipfs/QmPF3QpKQopfazmjFRYPYxcp3gmiapJq1FHqxG6RMBw92z"
 			]
 		}
 	},
