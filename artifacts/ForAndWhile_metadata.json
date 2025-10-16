@@ -6,6 +6,19 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "loop",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "result",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256[]",
@@ -66,11 +79,11 @@
 	},
 	"sources": {
 		"contracts/ForAndWhile.sol": {
-			"keccak256": "0x598bf5666a130b1c3890ba11fe1ed3ce02e870454bd6fe3c99e78fb23b1c4ecc",
+			"keccak256": "0x4a330a4b2c6a050c3b4eaefc221a3abf548da66c556dc4d22d5eedb30498fb30",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1d25f514daa40e903f78020cb37085bbb42c7c3e13f8122dc2f9cf2010be3c43",
-				"dweb:/ipfs/QmPAEUNFDgtgTybkRnzKXy2uu8esdMa3FNciJZBiJm1D4F"
+				"bzz-raw://6e2a0e0f34455cd22ef62738511f996342df42f0e50b9f0cfdeee8aa29cec6c9",
+				"dweb:/ipfs/QmSnC3y8VTm8NZha5dpTJrLnvQA7hgptRCLCyZq3GkWjgF"
 			]
 		}
 	},

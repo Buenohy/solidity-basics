@@ -18,4 +18,16 @@ contract ForAndWhile {
             index++;
         }
     }
+
+    function loop() external pure returns(uint256 result){
+        for(uint256 index = 0; index < 5; index++){
+            if (index == 3) {
+                continue;
+            }
+            if (index == 4) {
+                break;
+            }
+            result += 1;
+        }
+    }
 }
