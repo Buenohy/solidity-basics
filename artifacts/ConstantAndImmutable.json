@@ -1,0 +1,73 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {
+				"@_16": {
+					"entryPoint": null,
+					"id": 16,
+					"parameterSlots": 0,
+					"returnSlots": 0
+				}
+			},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "60c0604052348015600e575f5ffd5b506103e86080818152505060805160a051603e60315f395f50505f5050603e5ff3fe60806040525f5ffdfea2646970667358221220e37558ec22377fe0faa968bed1008254c20545a5120bc4e4713ebe678bfdd0b064736f6c634300081e0033",
+			"opcodes": "PUSH1 0xC0 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xE JUMPI PUSH0 PUSH0 REVERT JUMPDEST POP PUSH2 0x3E8 PUSH1 0x80 DUP2 DUP2 MSTORE POP POP PUSH1 0x80 MLOAD PUSH1 0xA0 MLOAD PUSH1 0x3E PUSH1 0x31 PUSH0 CODECOPY PUSH0 POP POP PUSH0 POP POP PUSH1 0x3E PUSH0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 PUSH0 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 CALLF 0x7558 EOFCREATE 0x22 CALLDATACOPY PUSH32 0xE0FAA968BED1008254C20545A5120BC4E4713EBE678BFDD0B064736F6C634300 ADDMOD 0x1E STOP CALLER ",
+			"sourceMap": "62:199:0:-:0;;;208:50;;;;;;;;;;246:4;233:17;;;;;;62:199;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "60806040525f5ffdfea2646970667358221220e37558ec22377fe0faa968bed1008254c20545a5120bc4e4713ebe678bfdd0b064736f6c634300081e0033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 PUSH0 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 CALLF 0x7558 EOFCREATE 0x22 CALLDATACOPY PUSH32 0xE0FAA968BED1008254C20545A5120BC4E4713EBE678BFDD0B064736F6C634300 ADDMOD 0x1E STOP CALLER ",
+			"sourceMap": "62:199:0:-:0;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12400",
+				"executionCost": "infinite",
+				"totalCost": "infinite"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": [
+		{
+			"inputs": [],
+			"stateMutability": "nonpayable",
+			"type": "constructor"
+		}
+	]
+}
