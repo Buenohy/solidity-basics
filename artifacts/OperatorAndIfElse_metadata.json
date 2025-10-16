@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "increment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "rest",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/OperatorAndIfElse.sol": "OperatorAndIfElse"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/OperatorAndIfElse.sol": {
+			"keccak256": "0xe65dc77fc72b5da5805c356fabfc982062426bce4f213414a1d93fdd7822a917",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f39deee1d12306c4ee3c5e87e324aad2cb6c1182bf5b4bf5394ac88250dd5e15",
+				"dweb:/ipfs/QmT7codxnP8nTmUUdhZz8gYFBcwrVFsrr2A22VkTwaXLEa"
+			]
+		}
+	},
+	"version": 1
+}
