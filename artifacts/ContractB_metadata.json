@@ -7,25 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "fool",
-				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
+				"type": "constructor"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "x",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "y",
-						"type": "uint256"
-					}
-				],
-				"name": "soma",
+				"inputs": [],
+				"name": "x",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -33,31 +20,7 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "x",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "y",
-						"type": "uint256"
-					}
-				],
-				"name": "sub",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -74,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Function.sol": "ContractB"
+			"contracts/InheritanceAndConstructors.sol": "ContractB"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -88,12 +51,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Function.sol": {
-			"keccak256": "0x7b07cabe6ecbd299b0d1b72f47739e2cdf3c0e9100f0ecb04fc8a33db26af8ad",
+		"contracts/InheritanceAndConstructors.sol": {
+			"keccak256": "0x168848f9a54c8f9c9ac9dc838e47ee379066a2bb4daa846a488a31af7ddb3143",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://126d3c83cf6e47c329d0bb7a956308e5491f3113c490fa8ffb211446ac5f7ef2",
-				"dweb:/ipfs/QmPzKmt17zbGvUVjY3WWZMkgBJkbRs2SLWwY5whFQ2WkNT"
+				"bzz-raw://1c3629b23bb7cb4c999b7770fd57bc9c99d29545ea2c79f4a8c709ce7c93702e",
+				"dweb:/ipfs/QmY3wMqpAfvhRUkyRt4u5PhrvxyYY4UfmedKX5Z39FQJNW"
 			]
 		}
 	},

@@ -9,3 +9,9 @@ contract Base {
         x = _x;
     }
 }
+
+contract ContractA is Base(2) {}
+
+contract ContractB is Base {
+    constructor() Base(2) {}
+}
