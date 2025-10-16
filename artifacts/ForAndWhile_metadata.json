@@ -23,6 +23,19 @@
 				],
 				"stateMutability": "pure",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "loopWhile",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "sum",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -53,11 +66,11 @@
 	},
 	"sources": {
 		"contracts/ForAndWhile.sol": {
-			"keccak256": "0x012bf6551125f3bf4ae84cb59e0161c7d829461039bfd08a1039f9fb862a7a8e",
+			"keccak256": "0x598bf5666a130b1c3890ba11fe1ed3ce02e870454bd6fe3c99e78fb23b1c4ecc",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7b673568d550a97271327857f4578823130cd40bcdb86a970afcd2a7d2bd1d47",
-				"dweb:/ipfs/QmUhfi2K1c7a8yabeP23CtQMpCLqHToi5XADzXL1THziZK"
+				"bzz-raw://1d25f514daa40e903f78020cb37085bbb42c7c3e13f8122dc2f9cf2010be3c43",
+				"dweb:/ipfs/QmPAEUNFDgtgTybkRnzKXy2uu8esdMa3FNciJZBiJm1D4F"
 			]
 		}
 	},

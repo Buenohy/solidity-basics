@@ -10,4 +10,12 @@ contract ForAndWhile {
         }
         return sum;
     }
+
+    function loopWhile() external pure returns(uint256 sum) {
+        uint256 index;
+        while(index < 10) {
+            sum += 1;
+            index++;
+        }
+    }
 }
