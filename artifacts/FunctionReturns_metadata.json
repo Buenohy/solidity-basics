@@ -27,6 +27,24 @@
 				],
 				"stateMutability": "pure",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "returnNamed",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "b",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -57,11 +75,11 @@
 	},
 	"sources": {
 		"contracts/FunctionsReturns.sol": {
-			"keccak256": "0xac702db14d4eadd2c361db9b0a2c084ae434a8491b3b3bbc7d710d36105367ec",
+			"keccak256": "0x3973aaddabbf7f22affb7c509bf7fc8fa264764c93122e4f1c5d2a8fa40d1f44",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5aae9cdf8d5734ccd9298ca5d60daafac61bad13548ff5835b943c02817a8095",
-				"dweb:/ipfs/QmeHb1jb57XAmpDbRyNU6unq98mg9dinbx24qCwffuxp6Q"
+				"bzz-raw://e370e788e038eee9233d21fca5b5ca1250852dbe4b47eb527f3fd4e8d620ca33",
+				"dweb:/ipfs/QmcbsakZgy4RK6aon5qxFNo8W4NwQw8gXegt49fwQ1XQ7P"
 			]
 		}
 	},
