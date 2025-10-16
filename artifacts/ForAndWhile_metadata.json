@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "array",
+						"type": "uint256[]"
+					}
+				],
+				"name": "loopFor",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ForAndWhile.sol": "ForAndWhile"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ForAndWhile.sol": {
+			"keccak256": "0x012bf6551125f3bf4ae84cb59e0161c7d829461039bfd08a1039f9fb862a7a8e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7b673568d550a97271327857f4578823130cd40bcdb86a970afcd2a7d2bd1d47",
+				"dweb:/ipfs/QmUhfi2K1c7a8yabeP23CtQMpCLqHToi5XADzXL1THziZK"
+			]
+		}
+	},
+	"version": 1
+}
