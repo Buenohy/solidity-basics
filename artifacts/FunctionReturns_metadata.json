@@ -7,6 +7,13 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "destructing",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "returnAssigned",
 				"outputs": [
 					{
@@ -93,11 +100,11 @@
 	},
 	"sources": {
 		"contracts/FunctionsReturns.sol": {
-			"keccak256": "0xdb40b07f00b357155f8af9a2df06803cafc2f584866f4768ca224d5278773fda",
+			"keccak256": "0x40e946a515db02f8d467aefae02024c6a57fec8c261d99c245efbc3f4442ae7d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2344bcf24bdd7ff80f6b9743cd77cc0fbd4b1e026279b7d9b806ff77c26bf657",
-				"dweb:/ipfs/QmRhF13muuoqgxidbsdcxej783C11YsTwf6uw6GJyq4eSU"
+				"bzz-raw://a1c07f1068823ce97c2183ecad5567846934a2a924d0016d5660a1cdab1a524a",
+				"dweb:/ipfs/Qmf6mob7Fwj2S2Ye5QZXi51LMfw68TGr2qm6sZQrrLdUX5"
 			]
 		}
 	},

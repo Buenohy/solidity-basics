@@ -13,4 +13,11 @@ contract FunctionReturns {
         a = 10;
         b = true;
     }
+
+    function destructing() public pure {
+        (uint a, bool b, string memory s) = returnMany();
+        (,, string memory s2) = returnMany();
+        (,bool b2,) = returnMany();
+
+    }
 }
