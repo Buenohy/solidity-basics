@@ -1,4 +1,4 @@
-```markdown
+
 # Solidity Basics
 <p align="right"><a href="#-descrição">Leia em Português</a></p>
 
